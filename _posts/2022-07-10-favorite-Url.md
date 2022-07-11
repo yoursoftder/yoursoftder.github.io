@@ -25,15 +25,15 @@ category: blog
 
 都是比较便宜并且使用人比较多的vps
 
-## Audio and Sound effects
+## 新闻中心
 
-- [Audacity](https://www.audacityteam.org/)
-- [BFXR](https://www.bfxr.net/)
-- [SFXR](https://www.drpetter.se/project_sfxr.html)
+- [吃瓜中心](https://t.me/chigua91)
+- [红迪中国](https://www.reddit.com/r/China/)
+- [时政财经](https://www.youtube.com/channel/UCOhck8oLoIwSJzmwYMXsSnQ)
+- [时政解读](https://www.youtube.com/c/%E6%B1%9F%E5%B3%B0%E6%97%B6%E5%88%BB)
 
 {: .note .info}
-From here these links are for purchasing assets online 
-if you can't or don't have time to make to make game assets. They can be free of cost or priced
+实事新闻收集于网络,境外势力擅长造谣,请保持判断力.
 
 ## Online Assets
 - [Open Game Art](https://opengameart.org/)
