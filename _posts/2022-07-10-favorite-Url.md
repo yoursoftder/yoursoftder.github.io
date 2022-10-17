@@ -35,8 +35,8 @@ category: blog
 {: .note .info}
 实事新闻收集于网络,境外势力擅长造谣,请保持判断力.
 
-## Online Assets
-- [Open Game Art](https://opengameart.org/)
+## 经典收藏
+- [2010年对房价预测](http://bbs.tianya.cn/m/post-house-252774-1.shtml?f=i)
 - [Free Stuff](http://www.dumbmanex.com/bynd_freestuff.html)
 - [GameDev Market](https://www.gamedevmarket.net/)
 - [GameTextures](https://gametextures.com/)
