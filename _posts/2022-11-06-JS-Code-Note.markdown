@@ -35,6 +35,7 @@ function setCookie(cname,cvalue,exdays)
 }
 {% endhighlight %}
 ##JS常用语法
+
 #每次启动都动态加载js文件
 {% highlight javascript %}
 document.write("<script type='text/javascript' src='js/app.js?1004v="+Math.random()+"'><\/script>"); 
@@ -56,11 +57,11 @@ document.getElementById('ifr').src = "https://apis.map.qq.com/ws/location/v1/ip?
 {% highlight javascript %}
 $("#notifydiv").remove();//移除元素
 {% endhighlight %}
-#js 重定向网页加随机参数
+#js重定向网页加随机参数
 {% highlight javascript %}
  location.replace(window.location.origin+window.location.pathname+'?'+Math.random());
 {% endhighlight %}
-#js ajax跨域访问callback,jsonP
+#js/ajax跨域访问callback,jsonP
 {% highlight javascript %}
  function jsonP({url, params}) {
     return new Promise((resolve, reject) => {
@@ -85,7 +86,7 @@ console.log("数据: " + addr + "\n状态: " + status);
 }
 {% endhighlight %}
 
-#Js/JQ ajax查询BTC价格例子,Json解析,json转string,string转json
+#Js/JQ/ajax查询BTC价格例子,Json解析,json转string,string转json
 {% highlight javascript %}
 function getbtcprice(){
  $.get("https://chain.so/api/v2/get_info/BTC",function(data,status){
@@ -110,7 +111,7 @@ $("#txtinfo").val("BTC Price: "+ price );	//JQ修改input标签的内容
 
  }{% endhighlight %}
 
-#js switch函数
+#js/switch函数
 {% highlight javascript %}
 switch(selectis) {
 	case "show2":
@@ -226,13 +227,14 @@ var commonUtil = {
 {% endhighlight %}
 
 
-## Datatables 表单配置
+##Datatables 表单配置
+
 #html格式
 {% highlight javascript %}
 <table id="example" class="table table-striped table-bordered" style="width:100%" data-order='[[ 8, "desc" ]]' data-page-length='15'>
 <font><a href ="#" onclick="login()" id="loginbtn" tabindex="0" aria-controls="example" style="display:none;margin-left:5px;color: #020200;" class="btn btn-outline-secondary" >登录</a></font>        
 <div id="difr" style="display:none;max-height:233px;width:100%;position:sticky;z-index=11"><a href="#" style="margin-right:1px;" onclick="document.getElementById('difr').style.display='none'; ">     close    </a>
-<iframe id="ifr" style="display:;max-height:100%;width:100%;" src="https://apis.map.qq.com/ws/location/v1/ip?ip=112.42.17.201&key=Y7VBZ-PTPRU-VXIV7-43QPZ-F5SV3-6RBHT" title="W3Schools Free Online Web Tutorials">
+<iframe id="ifr" style="display:;max-height:100%;width:100%;" src="https://apis.map.qq.com/ws/location/v1/ip?ip=1.3.4.5&key=yourkey" title="W3Schools Free Online Web Tutorials">
 </iframe></div>
 	<div class="form-group input-group">
 	<select id="s1" style="display:;margin-left:1px;color: #020200;max-width:85px;">
@@ -282,7 +284,7 @@ var commonUtil = {
         </tfoot>
     </table>
 	{% endhighlight %}
-	#js 初始化columns: headtittle 普通初始化
+	#js/初始化columns: headtittle 普通初始化
 	{% highlight javascript %}
 	var headtittle = [
 	 {"title": "序号",data:null,"width" : '1px'},
@@ -297,7 +299,7 @@ var commonUtil = {
      {"data": null, "className": "center", "defaultContent": '<button type="button" id="editrow" data-toggle="modal" class="btn btn-outline btn-circle btn-sm purple"><i class="fa fa-edit"></i></button>  <button id="delrow" class="btn btn-outline btn-circle dark btn-sm black"><i class="fa fa-trash-o"></i></button>' }
  ];
  	{% endhighlight %}
- # js 初始化columns: headtittle修改表内样式
+ #js初始化columns: headtittle修改表内样式
  {% highlight javascript %}
   headtittle = [{"title": "序号",data:null,"width" : '1px'},
 	 {"title": "C", "data": "count" },{"title": "停", "data": "isend" ,"width" : '1px'},{ "title": "ID","data": "ID" },{ "title": "Fix","data": "Fixed" },{ "title": "Not2","data": "Not2" },{"title": "PhoneId", "data": "PhoneId" },

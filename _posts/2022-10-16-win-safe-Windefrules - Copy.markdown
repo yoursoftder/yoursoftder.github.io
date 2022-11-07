@@ -40,7 +40,7 @@ echo done
 
 {% endhighlight %}
 ## 下面是一些查询参考信息
-{% highlight css %}
+{% highlight cpp %}
 #cloudflare ip段
 103.21.244.0/22 103.21.244.1-103.21.247.254
 103.22.200.0/22 103.22.200.1-103.22.203.254
