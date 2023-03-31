@@ -61,7 +61,7 @@ const fetchCompletion = async () => {
 	  try{
  jsons = JSON.parse(line);
 	  }catch(error){
-		  //console.log(error);
+		  //console.log(error);//
 		 jsons="";
 	  }
  if(jsons!="")
