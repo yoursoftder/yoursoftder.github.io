@@ -4,7 +4,7 @@ title:  "FreeRDPWebConnect_Beta2 fix Enhancements"
 color:  blue
 width:   3
 height:  1
-date:   2024-08-26
+date:   2024-08-19
 categories: javascript Code
 excerpt_separator: <!--more-->
 ---
