@@ -8,6 +8,7 @@ date:   2024-08-26
 categories: javascript Code
 excerpt_separator: <!--more-->
 ---
+
 该项目在 FreeRDPWebConnect_Beta 软件的基础上进行了改进，增加了多个新功能以提升可用性和功能性。
 <!--more-->
 This project builds upon the FreeRDPWebConnect_Beta software, adding several new features to enhance usability and functionality.
@@ -39,4 +40,7 @@ The original index.html is now disguised. Visiting the homepage will redirect to
 ### eg. 图示
 # Cross-Screen Text Sending
 ![Cross-Screen Text Sending](https://github.com/yoursoftder/yoursoftder.github.io/blob/main/img/2024-08-21_16-17-09rdp.png?raw=true)
+ 
+
+[you can download here](https://github.com/yoursoftder/yoursoftder.github.io/releases/download/main/FreeRDPWebConnect_Beta_fix.exe)
 
