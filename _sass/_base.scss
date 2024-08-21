@@ -1,5 +1,5 @@
 body{
-    overflow-x: scroll;
+    overflow-x: scroll;background-color:black;   
 }
 
 .fork{
@@ -9,20 +9,35 @@ body{
 }
 
 .pagination{
-    text-align: center;
+    text-align: center; color:#1398e6;
 }
-
-.sidebar{
+p{
+    color:azure
+}
+h3{
+    color:#abf3ff
+} 
+h2{ 
+    color:#abf3ff
+}
+h1{
+    color:#abf3ff
+}
+h5{
+    color:#abf3ff
+}
+.sidebar {
     position: fixed;
     top: 0;
-    left:0;
-    width: 400px;
+    left: 0;
+    width: 200px;
     height: 100%;
-    background: #2d3436;
+    background: #051113;
     text-align: center;
-    color: $text-color;
-    z-index: 888;
+    color: #a104c6;
+    z-index: 888
 }
+
 
 .blog-post h3{
     font-size: 10px;
@@ -38,14 +53,16 @@ body{
     font-size: 20px;
 }
 
-.content{
+.content {
     position: relative;
-    left: 400px;
-    width: calc(100% - 400px);
+    left: 200px;
+    width: calc(100% - 200px);
+    background-color: black;
+  
 }
 
 a{
-    color: #e74c3c;
+    color: #57912a;
     text-decoration: none;
 
     &:hover{
