@@ -38,4 +38,5 @@ The original index.html is now disguised. Visiting the homepage will redirect to
 
 ### eg. 图示
 # Cross-Screen Text Sending
-![Cross-Screen Text Sending](img/2024-08-21_16-17-09rdp.png)
+![Cross-Screen Text Sending](https://github.com/yoursoftder/yoursoftder.github.io/blob/main/img/2024-08-21_16-17-09rdp.png?raw=true)
+
